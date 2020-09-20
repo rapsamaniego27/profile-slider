@@ -143,23 +143,23 @@
 
 /* Slide Borders */
 .slide:nth-of-type(1){
- border-bottom: 14px solid var(--purple);
+ box-shadow: inset 0px -10px 0px 0px var(--purple);
 }
 
 .slide:nth-of-type(2){
- border-bottom: 14px solid var(--yellow);
+ box-shadow: inset 0px -10px 0px 0px var(--yellow);
 }
 
 .slide:nth-of-type(3){
- border-bottom: 14px solid var(--blue);
+ box-shadow: inset 0px -10px 0px 0px var(--blue);
 }
 
 .slide:nth-of-type(4){
- border-bottom: 14px solid var(--green);
+box-shadow: inset 0px -10px 0px 0px var(--green);
 }
 
 .slide:nth-of-type(5){
- border-bottom: 14px solid var(--red);
+ box-shadow: inset 0px -10px 0px 0px var(--red);
 }
 
 
@@ -210,7 +210,7 @@
 
 @media only screen and (max-width:520px){
  .slider-row{
-  height:700px;
+  height:600px;
  }
 
 }
