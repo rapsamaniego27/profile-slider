@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /* Slider Styles */
 
 :root{
@@ -15,41 +22,70 @@
   max-width:800px;
   height:auto;
   margin:0 auto;
+  display:-webkit-box;
+  display:-ms-flexbox;
   display:flex;
-  justify-content:center;
-  align-items: center;
+  -webkit-box-pack:center;
+      -ms-flex-pack:center;
+          justify-content:center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .slider-row{
   height:400px;
   margin: 0 auto;
   -webkit-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.75);
   box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.75);
 }
 
 .slide{
   background:var(--light-gray);
   font-family: sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   color: #333333;
   margin:10px 0;
 }
 
 .slides-track{
+ display:-webkit-box;
+ display:-ms-flexbox;
  display:flex;
- justify-content:center;
- align-items: center;
+ -webkit-box-pack:center;
+     -ms-flex-pack:center;
+         justify-content:center;
+ -webkit-box-align: center;
+     -ms-flex-align: center;
+         align-items: center;
 }
 
 .slide-upper{
+ display:-webkit-box;
+ display:-ms-flexbox;
  display:flex;
- justify-content:center;
- align-items: center;
- flex-direction: column;
+ -webkit-box-pack:center;
+     -ms-flex-pack:center;
+         justify-content:center;
+ -webkit-box-align: center;
+     -ms-flex-align: center;
+         align-items: center;
+ -webkit-box-orient: vertical;
+ -webkit-box-direction: normal;
+     -ms-flex-direction: column;
+         flex-direction: column;
 }
 
 
@@ -58,15 +94,25 @@
  height:120px;
  border-radius: 50%;
  overflow:hidden;
+ display:-webkit-box;
+ display:-ms-flexbox;
  display:flex;
- justify-content:flex-end;
- align-items: center;
- flex-direction: column;
+ -webkit-box-pack:end;
+     -ms-flex-pack:end;
+         justify-content:flex-end;
+ -webkit-box-align: center;
+     -ms-flex-align: center;
+         align-items: center;
+ -webkit-box-orient: vertical;
+ -webkit-box-direction: normal;
+     -ms-flex-direction: column;
+         flex-direction: column;
 }
 
 
 .slide-avatar{
- object-fit: contain;
+ -o-object-fit: contain;
+    object-fit: contain;
  width:80%;
  height:80%;
 }
@@ -90,10 +136,15 @@
 
 /* Controls */
 .controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   max-width: 600px;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin:20px auto;
 }
 
@@ -104,7 +155,9 @@
 }
 
 .fa-play:nth-of-type(1){
- transform: rotate(180deg);
+ -webkit-transform: rotate(180deg);
+     -ms-transform: rotate(180deg);
+         transform: rotate(180deg);
  margin-right:15px;
 }
 
