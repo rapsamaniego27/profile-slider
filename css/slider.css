@@ -190,7 +190,7 @@ box-shadow: inset 0px -10px 0px 0px var(--green);
 /* Mobile */
 @media only screen and (max-width:768px){
  .slider-row{
-  height:100vh;
+   height:460px;
     max-width:70vw;
  }
 
@@ -210,7 +210,7 @@ box-shadow: inset 0px -10px 0px 0px var(--green);
 
 @media only screen and (max-width:520px){
  .slider-row{
-  height:600px;
+  height:800px;
  }
 
 }
