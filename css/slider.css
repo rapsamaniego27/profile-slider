@@ -5,6 +5,13 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /* Slider Styles */
 
 :root{
@@ -83,7 +90,9 @@
  position:absolute;
  top: 50%;
  left: 50%;
- transform: translate(-50%, -36%);
+ -webkit-transform: translate(-50%, -36%);
+     -ms-transform: translate(-50%, -36%);
+         transform: translate(-50%, -36%);
 }
 
 .slide-name, .slide-job{
@@ -143,23 +152,28 @@
 
 /* Slide Borders */
 .slide:nth-of-type(1){
- box-shadow: inset 0px -10px 0px 0px var(--purple);
+ -webkit-box-shadow: inset 0px -10px 0px 0px var(--purple);
+         box-shadow: inset 0px -10px 0px 0px var(--purple);
 }
 
 .slide:nth-of-type(2){
- box-shadow: inset 0px -10px 0px 0px var(--yellow);
+ -webkit-box-shadow: inset 0px -10px 0px 0px var(--yellow);
+         box-shadow: inset 0px -10px 0px 0px var(--yellow);
 }
 
 .slide:nth-of-type(3){
- box-shadow: inset 0px -10px 0px 0px var(--blue);
+ -webkit-box-shadow: inset 0px -10px 0px 0px var(--blue);
+         box-shadow: inset 0px -10px 0px 0px var(--blue);
 }
 
 .slide:nth-of-type(4){
-box-shadow: inset 0px -10px 0px 0px var(--green);
+-webkit-box-shadow: inset 0px -10px 0px 0px var(--green);
+        box-shadow: inset 0px -10px 0px 0px var(--green);
 }
 
 .slide:nth-of-type(5){
- box-shadow: inset 0px -10px 0px 0px var(--red);
+ -webkit-box-shadow: inset 0px -10px 0px 0px var(--red);
+         box-shadow: inset 0px -10px 0px 0px var(--red);
 }
 
 
@@ -201,16 +215,16 @@ box-shadow: inset 0px -10px 0px 0px var(--green);
 
 }
 
-/* @media only screen and (max-width:620px){
+@media only screen and (max-width:620px){
  .slider-row{
   height:500px;
  }
 
-} */
+}
 
 @media only screen and (max-width:520px){
  .slider-row{
-  height:800px;
+  height:580px;
  }
 
 }
