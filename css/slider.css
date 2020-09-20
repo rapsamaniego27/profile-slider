@@ -113,8 +113,8 @@
 .slide-avatar{
  -o-object-fit: contain;
     object-fit: contain;
- width:80%;
- height:80%;
+ width:96px;
+ height:96px;
 }
 
 .slide-name, .slide-job{
@@ -222,9 +222,9 @@
   font-size:15px;
  }
 
- .slide-avatar__container{
+/*  .slide-avatar__container{
   margin-top:30px;
- }
+ } */
 
 }
 
