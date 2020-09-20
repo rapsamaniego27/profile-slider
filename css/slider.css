@@ -227,3 +227,17 @@
  }
 
 }
+
+@media only screen and (max-width:620px){
+ .slider-row{
+  height:500px;
+ }
+
+}
+
+@media only screen and (max-width:520px){
+ .slider-row{
+  height:560px;
+ }
+
+}
