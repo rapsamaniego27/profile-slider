@@ -10,3 +10,10 @@ const profileSlider = new East({
   nextEl: document.querySelector('.goToNext')
  }
 });
+
+
+const jovinaEl = document.querySelector('#jovina');
+
+jovinaEl.addEventListener('click', ()=> {
+  alert('Good Day Jovina! Hope you have a nice day today! Kain and workout din pag may time! :D');
+});

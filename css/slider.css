@@ -81,6 +81,7 @@
  padding:10px 0 0 0;
 }
 
+
 .slide-lower{
  max-width:80%;
  display:inline-block;
@@ -97,7 +98,7 @@
 }
 
 .fa-play{
- font-size:4vw;
+ font-size: 42px;
  color: var(--dark);
  cursor:pointer;
 }
@@ -155,4 +156,21 @@
 
 .slide:nth-of-type(5) .slide-avatar__container{
   background: var(--red);
+}
+
+
+/* Mobile */
+@media only screen and (max-width:768px){
+ .slider-row{
+  height:100vh;
+ }
+
+ .slide-info{
+  font-size:15px;
+ }
+
+ .slide-avatar__container{
+  margin-top:30px;
+ }
+
 }
