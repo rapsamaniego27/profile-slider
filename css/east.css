@@ -1,0 +1,44 @@
+/* Plugin CSS */
+
+/* Parent Container */
+.east-row{
+ position:relative;
+ width:100%;
+}
+
+/* This element will always be 100% of its slider container */
+.east-track{
+  width:100%;
+  height:100%;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Default styling of a slide */
+.east-slide {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  transition: all .25s;
+  transform: translateX(-200%);
+}
+
+/* The slide positions */
+
+.east-slide.east--next + .east-slide {
+  transform: translateX(200%);
+}
+
+.east-slide.east--prev {
+  z-index: 10;
+  transform: translateX(-100%);
+}
+.east-slide.east--current {
+  z-index: 10;
+  transform: translateX(0);
+}
+.east-slide.east--next {
+  z-index: 10;
+  transform: translateX(100%);
+}
+
