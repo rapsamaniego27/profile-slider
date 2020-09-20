@@ -217,14 +217,14 @@
 
 @media only screen and (max-width:620px){
  .slider-row{
-  height:500px;
+  height:520px;
  }
 
 }
 
 @media only screen and (max-width:520px){
  .slider-row{
-  height:580px;
+  height:600px;
  }
 
 }
